@@ -72,3 +72,42 @@ html {
   border-right: 1px solid rgb(185, 184, 184);
   text-align: center;
 }
+
+/* 이미지 슬라이더 */
+.container .slideshow_container {
+  width: 100vw;
+}
+
+.container .slideshow_container .imagaSlider {
+}
+
+/* 메인 컨텐츠 */
+.container .MainContents_container {
+  width: 100vw;
+  height: 1000px;
+}
+
+.container .footer {
+  width: 100vw;
+  /* border-top: 5px solid rgb(43, 43, 43); */
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.container .footer .footer_presenter-info {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.container .footer .footer_contact {
+  display: block;
+  margin: auto;
+}
+
+.container .footer .footer_links {
+  display: block;
+  margin: auto;
+}

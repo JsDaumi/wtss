@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/main.html");
+  res.sendFile(__dirname + "/public/main.html");
 });
 
 app.listen(3000, function() {
